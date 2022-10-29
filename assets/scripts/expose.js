@@ -15,8 +15,8 @@ function init() {
 
   hornSelection.addEventListener('change', (e) => {
     selectedOption = e.target.value;
-    audioElement.src = `./assets/audio/${selectedOption}.mp3`
-    hornImage.src = `./assets/images/${selectedOption}.svg`
+    audioElement.src = `assets/audio/${selectedOption}.mp3`
+    hornImage.src = `assets/images/${selectedOption}.svg`
   })
   
   playButton.onclick = (e) => {
@@ -37,7 +37,7 @@ function init() {
     else
       level = 3
 
-    volumeImage.src = `./assets/icons/volume-level-${level}.svg`
+    volumeImage.src = `assets/icons/volume-level-${level}.svg`
     audioElement.volume = (volumeSlider.value / 100)
   }
 }
