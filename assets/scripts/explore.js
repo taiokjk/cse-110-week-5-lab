@@ -14,8 +14,8 @@ function init() {
   const talkButton = document.querySelector('button')
 
   const smileImage = document.querySelector("img[alt=\"Smiling face\"]")
-  const smileyFace = '/assets/images/smiling.png'
-  const smileyFaceOpen = '/assets/images/smiling-open.png'
+  const smileyFace = 'assets/images/smiling.png'
+  const smileyFaceOpen = 'assets/images/smiling-open.png'
 
   let voices = []
   synth.addEventListener('voiceschanged', () => {
